@@ -1,0 +1,7 @@
+interface:
+  display_name: "RAG QA Evidence Evaluation"
+  short_description: "Run evidence-backed knowledge-base QA comparisons"
+  default_prompt: "Use $rag-qa-evidence-evaluation to design or run a fair knowledge-base QA comparison with traceable answer, retrieval, citation, chunk, source, and screenshot evidence."
+
+policy:
+  allow_implicit_invocation: true
